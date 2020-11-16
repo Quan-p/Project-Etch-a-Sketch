@@ -7,7 +7,7 @@ function makeGrid(rows, cols) {
         let cell = document.createElement('div');
         container.appendChild(cell).className = 'grid-item';
         cell.onmouseover = function() {
-            this.style.background = 'black';
+            this.style.background = 'rgb(244, 212, 124)';
         }
     };
 }
@@ -15,7 +15,7 @@ function makeGrid(rows, cols) {
 function clearGrid() {
     var cells = document.getElementsByClassName('grid-item');
     for (i = 0; i < cells.length; i++) {
-        cells[i].style.backgroundColor = "white";
+        cells[i].style.backgroundColor = "rgb(32, 105, 224)";
     }
 }
 
