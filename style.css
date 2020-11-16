@@ -73,7 +73,7 @@ button:hover {
 
 .slider {
     -webkit-appearance: none;
-    width: 60%;
+    width: 30%;
     height: 15px;
     border-radius: 5px;  
     background: #d3d3d3;
